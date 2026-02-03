@@ -39,6 +39,8 @@ print('id:', id(a),'id',id(b))
 a[0] = 10
 print(a,b)
 
+a = np.array([[1,2,3],
+             [1,2,3]])
 
 img = np.zeros((100, 300, 3), dtype=np.uint8)
 
